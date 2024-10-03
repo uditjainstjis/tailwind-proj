@@ -5,9 +5,21 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+html {
+  scroll-behavior: smooth; 
+}
+
+cursor-custom{
+  cursor:url('https://www.kindpng.com/picc/m/42-420858_transparent-cursor-mouse-pointer-vector-png-png-download.png'),auto;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
